@@ -1,0 +1,90 @@
+body {
+    background-color: #FFA500;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo-section {
+    margin-bottom: 20px;
+}
+
+.logo-section img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-section p {
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.btn.instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.btn.telegram {
+    background: #0088cc;
+}
+
+.btn.tiktok {
+    background: linear-gradient(45deg, #25F4EE, #FE2C55, #000000);
+}
+
+.btn.location {
+    background: #4CAF50;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.warning {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
