@@ -17,6 +17,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.text3{
+    display: block;
+    text-align: center;
+}
 .text2{
     color: #fff;
     text-align: center;
